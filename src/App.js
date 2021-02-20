@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import Box from "./Box";
 import "./App.css";
 
 function App() {
