@@ -5,9 +5,10 @@ import BoxForm from "./BoxForm";
 class BoxList extends Component {
   constructor(props) {
     super(props);
-    this.state = { boxes: [{ width: 10, height: 40, color: "orange" }] };
+    this.state = { boxes: [] };
     this.create = this.create.bind(this);
   }
+  remove() {}
   create(newBox) {
     this.setState({
       boxes: [...this.state.boxes, newBox],
